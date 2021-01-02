@@ -1,0 +1,33 @@
+The <script> is added in the <head> section
+The link to the script tag is added in the body after the content , i.e at the end
+-----------------------------------------------------------------------------------------------------------------------
+DataTypes :
+Number : Floating point Number
+String : Sequence of charecters
+Boolean : True or False
+Undefined : Value taken by the variable that is not yet defined
+Null      : Empty value
+Symbol    : Value that is unique and cannot be changed
+BigInt    : Larger integers that the Number cant hold
+
+Javascript is DYNAMICALLY TYPED
+-----------------------------------------------------------------------------------------------------------------------
+typeof | This is used to know the type of the variable
+-----------------------------------------------------------------------------------------------------------------------
+let    | It is the modern way of declaring a variable
+var    | It is the old way of declaring a variable
+-----------------------------------------------------------------------------------------------------------------------
+Literal String :
+const jonas = `I'm ${firstName} having the job of a ${teacher} and born in ${birthYear}! `
+-----------------------------------------------------------------------------------------------------------------------
+Type coersion : When we have string and in between a number , then the number is converted into a string
+Except "+" operator, the evaluation happens as though it was not a string.  ex. console.log("25" -"3") will give 22
+-----------------------------------------------------------------------------------------------------------------------
+5 falsy values :
+0
+''
+undefined
+null
+NaN
+-----------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------

@@ -1,0 +1,28 @@
+'use strict' is used to enable strict mode
+If strict mode is not there, then the user will be able to initialize a variable that has not be declared
+
+Ex. hasUsers = True
+
+hasUser = false // This would throw an error saying that the variable hasUser is not defined
+
+There are 2 ways of creating a function :
+
+//Function declarations
+function my_func1(param1){
+    .....
+}
+OR
+
+//Function Expression
+const my_func2 = function(param1){
+    ...
+}
+
+Function Declaration can be called before and declared later
+Function Expression needs to be declared first and then be called.
+
+Arrow Function :
+const calAge3 = birthYear => 2021 - birthYear
+
+Calling function has arguments
+Callee function has paremeters

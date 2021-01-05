@@ -26,3 +26,24 @@ const calAge3 = birthYear => 2021 - birthYear
 
 Calling function has arguments
 Callee function has paremeters
+
+In Array, after creating, the entire Array cant  be changed
+
+const friends = ['a', 'b', 'c']
+console.log(friends)
+friends[0] = 'd'
+console.log(friends)
+friends = ['d', 'm', 'p'] // Will not work
+
+push()    | Returns the length of the new array
+pop()     | Returns the popped element
+unshift() | Adds elements at the start of the array
+shift()   | Removes elements at the start of the array
+indexOf() | Finds the position with which the element is present
+includes()| Returns true or false based on whether the element is present or not
+
+There are 2 ways to access the Object properties :
+Dot notation
+Bracket notation
+james.firstName //Dot notation
+james["firstName] // Bracket notation

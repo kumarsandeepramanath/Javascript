@@ -8,3 +8,23 @@ Prefernces ->User Snippets -> and uncomment
 console.log  -> cl
 
 TODO Highlight > Extension
+
+-------------------------------------------------------------------------------------------------------------------
+Live Server extension on VS Code helps in acting as a LIVE server
+
+npm Install live-server -g | TO install Live server
+live-server                | This will run the live server
+
+-------------------------------------------------------------------------------------------------------------------
+HOW TO LEARN
+
+* Have SMART GOALS
+* Understand the code
+* Reinforce by doing something practical
+    CODEWARS.COM
+* Practice on your own outside the course - ON YOUR OWN PROJECT
+* Dont be demotivated
+------------------------------------------------------------------------------------------------------------------
+console.table(myObject) // Gives data in a tabular form
+------------------------------------------------------------------------------------------------------------------
+debugger // Used to trigger a debugger

@@ -1,2 +1,4 @@
 There are multiple effects that can be done using 3rd party libraries
 But the purpose of this website creation is to learn using JS
+
+document.querySelector('.className) | This technique is used to select a particular class name

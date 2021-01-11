@@ -1,0 +1,2 @@
+There are multiple effects that can be done using 3rd party libraries
+But the purpose of this website creation is to learn using JS

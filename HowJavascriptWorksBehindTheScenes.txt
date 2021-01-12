@@ -1,3 +1,4 @@
 This lets us know JS works behind the scenes
 It throws better light on our fundamental concepts of Js Behind the scenes
 This section deals with DOM Manipulation
+This section also lets us know how do we manipulate CSS

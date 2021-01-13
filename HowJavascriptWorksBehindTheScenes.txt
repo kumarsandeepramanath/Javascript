@@ -1,11 +1,3 @@
-This lets us know JS works behind the scenes
-It throws better light on our fundamental concepts of Js Behind the scenes
-This section deals with DOM Manipulation
-This section also lets us know how do we manipulate CSS
-This section also helps in letting us know how we deal with the classes
-We will next work on Selecting and Manipulating elements
-We will also work on Handling click events
-We will work on adding contents to the modal window
 console.log(document.querySelector('.message').textContent); 
 querySelector is used to select the element
 textContent   is used to get the text out of the element

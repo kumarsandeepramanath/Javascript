@@ -8,3 +8,4 @@ Timers, Fetch API are also other Web APIs that are available
 This course explains about the esc key events
 This course explain about rolling the dice methods
 THis course explains about switching active player
+This course explain how to hold the current score

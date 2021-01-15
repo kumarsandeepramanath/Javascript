@@ -5,3 +5,11 @@ textContent   is used to get the text out of the element
 DOM methods are properties are not part of Javascript. They are part of Web APIs. 
 The Web APIs are libraries which are written in Javascript
 Timers, Fetch API are also other Web APIs that are available
+
+Set CSS properties
+document.querySelector('body').style.backgroundColor = 'green';
+
+DOM method 
+document.querySelector('.check').addEventListener('click', function () {}
+Always follow the DRY principle
+

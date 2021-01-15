@@ -15,3 +15,4 @@ Always follow the DRY principle
 When there is majority of code which is same and just a condition that changes, Ternary operator is the best option
 Math.trunc() : This will help in removing the decimal part of a number
 
+While generating a random number, if a random of 20 numbers have to be generated, then Math.random()*20 +1 will do

@@ -12,4 +12,5 @@ document.querySelector('body').style.backgroundColor = 'green';
 DOM method 
 document.querySelector('.check').addEventListener('click', function () {}
 Always follow the DRY principle
+When there is majority of code which is same and just a condition that changes, Ternary operator is the best option
 

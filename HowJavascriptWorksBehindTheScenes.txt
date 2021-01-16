@@ -21,3 +21,6 @@ Always use a '===' instead of the '==' since it also checks for the type
 Add CSS properties to an element :
 document.querySelector('body').style.backgroundColor = 'black';
 
+Value property is used to read the value from an input element
+const guess = Number(document.querySelector('.guess').value);
+

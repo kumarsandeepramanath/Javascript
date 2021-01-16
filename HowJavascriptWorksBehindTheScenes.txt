@@ -17,3 +17,7 @@ Math.trunc() : This will help in removing the decimal part of a number
 
 While generating a random number, if a random of 20 numbers have to be generated, then Math.random()*20 +1 will do
 Always use a '===' instead of the '==' since it also checks for the type
+
+Add CSS properties to an element :
+document.querySelector('body').style.backgroundColor = 'black';
+

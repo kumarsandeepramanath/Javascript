@@ -24,3 +24,5 @@ document.querySelector('body').style.backgroundColor = 'black';
 Value property is used to read the value from an input element
 const guess = Number(document.querySelector('.guess').value);
 
+The next topic is about how Javascript works
+

@@ -26,4 +26,7 @@ const guess = Number(document.querySelector('.guess').value);
 
 modal.classList.remove('hidden'); classList helps in adding or removing properties
 
+const btnOpenModals = document.querySelectorAll('.show-modal'); | Select multiple files
+
+
 

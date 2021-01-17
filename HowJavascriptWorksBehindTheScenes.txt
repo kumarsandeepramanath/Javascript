@@ -28,5 +28,16 @@ modal.classList.remove('hidden'); classList helps in adding or removing properti
 
 const btnOpenModals = document.querySelectorAll('.show-modal'); | Select multiple files
 
+---------------------------------------------------------------------------------------------------------------------
+  function closeModal() {
+    modal.classList.add('hidden');
+    overlay.classList.add('hidden');
+  }
+  close.addEventListener('click', closeModal);
+
+  Note here, we should NOT do closeModal() in line 36 since it will call the function immediately.
+  We want to this to be called on "click" function
+  ---------------------------------------------------------------------------------------------------------------------
+
 
 

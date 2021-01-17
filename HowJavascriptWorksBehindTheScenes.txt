@@ -44,6 +44,9 @@ const btnOpenModals = document.querySelectorAll('.show-modal'); | Select multipl
 
   e is the event that happens when the key press happens.
   This will help in getting to know all the details of the event
+  --------------------------------------------------------------------------------------------------------------------
+ if(modal.classList.contains('hidden')) | Contains is used to check if a class is present in an element
+
 
 
 

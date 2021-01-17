@@ -38,6 +38,12 @@ const btnOpenModals = document.querySelectorAll('.show-modal'); | Select multipl
   Note here, we should NOT do closeModal() in line 36 since it will call the function immediately.
   We want to this to be called on "click" function
   ---------------------------------------------------------------------------------------------------------------------
+  document.addEventListener('keydown', function (e) {
+    console.log(e);
+  });
+
+  e is the event that happens when the key press happens.
+  This will help in getting to know all the details of the event
 
 
 

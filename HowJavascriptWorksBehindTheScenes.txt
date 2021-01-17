@@ -24,4 +24,6 @@ document.querySelector('body').style.backgroundColor = 'black';
 Value property is used to read the value from an input element
 const guess = Number(document.querySelector('.guess').value);
 
+modal.classList.remove('hidden'); classList helps in adding or removing properties
+
 

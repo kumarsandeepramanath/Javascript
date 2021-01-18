@@ -50,6 +50,10 @@ const btnOpenModals = document.querySelectorAll('.show-modal'); | Select multipl
  Diagrams.net is used to create simple diagrams
   
 The game that will be played is Pig Game.
+The rules of the Pig Game are as follows :
+1. There are 2 players.
+2. Each have to role a dice
+3. If a player scores 1, then the chance moves to the next player
 
 
 

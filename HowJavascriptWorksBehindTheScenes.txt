@@ -54,6 +54,9 @@ The rules of the Pig Game are as follows :
 1. There are 2 players.
 2. Each have to role a dice
 3. If a player scores 1, then the chance moves to the next player
+4. The player has an option to hold onto their score. If the player holds on to a point, then such a score will be added
+to his/her total
+5. If a player does not hold and (3) happens, then the scores are set to 0
 
 
 

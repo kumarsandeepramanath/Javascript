@@ -57,6 +57,9 @@ The rules of the Pig Game are as follows :
 4. The player has an option to hold onto their score. If the player holds on to a point, then such a score will be added
 to his/her total
 5. If a player does not hold and (3) happens, then the scores are set to 0
+6. That player who reaches the score of 100 wins the game
+7. The players also have an option to reset the game in case both the players wish to restart.
+The scores start with 0
 
 
 

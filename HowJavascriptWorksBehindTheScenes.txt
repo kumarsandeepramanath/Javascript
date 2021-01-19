@@ -62,6 +62,7 @@ to his/her total
 The scores start with 0
 
 The next topic we would discuss is about how JS works
+Subsequently, we will discuss about the DS iin JS
 
 
 

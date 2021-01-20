@@ -61,10 +61,7 @@ to his/her total
 7. The players also have an option to reset the game in case both the players wish to restart.
 The scores start with 0
 
-This is just a test comment
-Another commit
-One more commit 
-Last commit
+
 
 
 

@@ -28,3 +28,9 @@ First-class function : A function in which we treat functions just like variable
   Execution happens in the callstack
   The machine code is optimized and again sent to compiler and gets a more optimized machine code.
   This can happen several times and then less optimzed code is replaced with a more optimzed code
+  ----------------------------------------------------------------------------------------------------------------------
+  We have 3 components in a Javascript runtime :
+  1. Javascript engine :  This will be used to Parse -> Compile and Execute Javascript
+  2. Web APIs          :  DOM elements, Timers are part of this.
+  3. Callback queue    :  Any function that needs to be executed will be present here.
+                          When a function has to be executed, then the function is sent to call stack by event loop.

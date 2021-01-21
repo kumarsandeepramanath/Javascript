@@ -1,67 +1,8 @@
-console.log(document.querySelector('.message').textContent); 
-querySelector is used to select the element
-textContent   is used to get the text out of the element
-
-DOM methods are properties are not part of Javascript. They are part of Web APIs. 
-The Web APIs are libraries which are written in Javascript
-Timers, Fetch API are also other Web APIs that are available
-
-Set CSS properties
-document.querySelector('body').style.backgroundColor = 'green';
-
-DOM method 
-document.querySelector('.check').addEventListener('click', function () {}
-Always follow the DRY principle
-When there is majority of code which is same and just a condition that changes, Ternary operator is the best option
-Math.trunc() : This will help in removing the decimal part of a number
-
-While generating a random number, if a random of 20 numbers have to be generated, then Math.random()*20 +1 will do
-Always use a '===' instead of the '==' since it also checks for the type
-
-Add CSS properties to an element :
-document.querySelector('body').style.backgroundColor = 'black';
-
-Value property is used to read the value from an input element
-const guess = Number(document.querySelector('.guess').value);
-
-modal.classList.remove('hidden'); classList helps in adding or removing properties
-
-const btnOpenModals = document.querySelectorAll('.show-modal'); | Select multiple files
-
----------------------------------------------------------------------------------------------------------------------
+ProtoTyping : In JS, there is a prototype Ex. Array has a prototype with a list of all properties and methods.
+Then using this prototype, objects are created in JS
+First-class function : A function in which we treat functions just like variables. Ex. pass function into another function
   function closeModal() {
     modal.classList.add('hidden');
     overlay.classList.add('hidden');
   }
   close.addEventListener('click', closeModal);
-
-  Note here, we should NOT do closeModal() in line 36 since it will call the function immediately.
-  We want to this to be called on "click" function
-  ---------------------------------------------------------------------------------------------------------------------
-  document.addEventListener('keydown', function (e) {
-    console.log(e);
-  });
-
-  e is the event that happens when the key press happens.
-  This will help in getting to know all the details of the event
-  --------------------------------------------------------------------------------------------------------------------
- if(modal.classList.contains('hidden')) | Contains is used to check if a class is present in an element
- --------------------------------------------------------------------------------------------------------------------
- Diagrams.net is used to create simple diagrams
-  
-The game that will be played is Pig Game.
-The rules of the Pig Game are as follows :
-1. There are 2 players.
-2. Each have to role a dice
-3. If a player scores 1, then the chance moves to the next player
-4. The player has an option to hold onto their score. If the player holds on to a point, then such a score will be added
-to his/her total
-5. If a player does not hold and (3) happens, then the scores are set to 0
-6. That player who reaches the score of 100 wins the game
-7. The players also have an option to reset the game in case both the players wish to restart.
-The scores start with 0
-
-
-
-
-

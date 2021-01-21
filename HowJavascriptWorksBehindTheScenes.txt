@@ -22,4 +22,9 @@ First-class function : A function in which we treat functions just like variable
   Current Javascript is not an interpreted language anymore.
   It makes use of JIT - Just-In-Time compilation. Entire code is converted into machine code and executed at once
   ----------------------------------------------------------------------------------------------------------------------
-  
+  Code -> Parser(Read the code and create AST - Abstract Syntax tree) -> 
+  Compilation (Takes AST and converts in machine code)-> Execution (Machine code is executed)
+
+  Execution happens in the callstack
+  The machine code is optimized and again sent to compiler and gets a more optimized machine code.
+  This can happen several times and then less optimzed code is replaced with a more optimzed code

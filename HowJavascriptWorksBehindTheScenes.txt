@@ -8,3 +8,5 @@ First-class function : A function in which we treat functions just like variable
   close.addEventListener('click', closeModal);
 
   Javascript runs on single thread and hence can perform only 1 task at a time
+
+  Eventloop : It takes a long running tasks, executes them in the background and puts them in the main thread once it completes

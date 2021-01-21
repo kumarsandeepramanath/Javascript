@@ -6,3 +6,5 @@ First-class function : A function in which we treat functions just like variable
     overlay.classList.add('hidden');
   }
   close.addEventListener('click', closeModal);
+
+  Javascript runs on single thread and hence can perform only 1 task at a time

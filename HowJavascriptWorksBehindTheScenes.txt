@@ -82,4 +82,14 @@ const calcAgeArrow = birthYear => {
 };
 
 calcAgeArrow(1988) // this will give the "this" as window since arrow function does not have its own this and point to its parent
+
+const jonas = {
+  name: 'Jonas',
+  age: '34',
+  calcAge: function () {
+    console.log(this);
+  },
+};
+
+jonas.calcAge(); // this will print jonas object since it is tied to an object
 ----------------------------------------------------------------------------------------------------------------------

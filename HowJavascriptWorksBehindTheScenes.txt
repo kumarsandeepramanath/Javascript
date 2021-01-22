@@ -60,3 +60,9 @@ Block Scope    : Variables accessed only inside a block.  "let" and "const" are 
 
 If a variable is not available, it will look in the parent scope
 ----------------------------------------------------------------------------------------------------------------------
+Hoisting : Makes some types of variables accessible/usable in the code before they are actually declared. "Variables lifted to the top of their scope"
+----------------------------------------------------------------------------------------------------------------------
+
+----------------------------------------------------------------------------------------------------------------------
+
+----------------------------------------------------------------------------------------------------------------------

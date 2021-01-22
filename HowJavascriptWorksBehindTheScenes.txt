@@ -62,7 +62,12 @@ If a variable is not available, it will look in the parent scope
 ----------------------------------------------------------------------------------------------------------------------
 Hoisting : Makes some types of variables accessible/usable in the code before they are actually declared. "Variables lifted to the top of their scope"
 ----------------------------------------------------------------------------------------------------------------------
+"this" keyword/variable : Special variable that is created for every execution context (every function)
+Takes the value of (points to) the "owner" of the function in which the "this" keyword is used
 
+Method : Object that is calling the methods
+Arrow  : "this" points to the surrounding function since arrow does not own
+Event listerner : "this" points to DOM
 ----------------------------------------------------------------------------------------------------------------------
 
 ----------------------------------------------------------------------------------------------------------------------

@@ -34,3 +34,24 @@ First-class function : A function in which we treat functions just like variable
   2. Web APIs          :  DOM elements, Timers are part of this.
   3. Callback queue    :  Any function that needs to be executed will be present here.
                           When a function has to be executed, then the function is sent to call stack by event loop.
+----------------------------------------------------------------------------------------------------------------------
+After the code is complied and ready to be executed. a global execution-context for top-level code is created
+Execution of top-level code happens
+Then the execution of function happens. Every function has its own "execution-context"
+----------------------------------------------------------------------------------------------------------------------
+What is inside of Execution context ?
+1. Variable environment 
+    let, const, variables
+    functions
+    arguments objects
+
+2. Scope chain
+
+3. "this" keyword
+----------------------------------------------------------------------------------------------------------------------
+Call Stack : It has a collection of execution context
+----------------------------------------------------------------------------------------------------------------------
+
+----------------------------------------------------------------------------------------------------------------------
+
+----------------------------------------------------------------------------------------------------------------------

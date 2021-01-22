@@ -69,5 +69,17 @@ Method : Object that is calling the methods
 Arrow  : "this" points to the surrounding function since arrow does not own
 Event listerner : "this" points to DOM
 ----------------------------------------------------------------------------------------------------------------------
+const calcAge2 = function (birthYear) {
+  console.log(2037 - birthYear);
+  console.log(this); // undefined since calcAge2() is not tied to any object
+};
 
+calcAge2(1989);
+
+const calcAgeArrow = birthYear => {
+  console.log(2037 - birthYear);
+  console.log(this);
+};
+
+calcAgeArrow(1988) // this will give the "this" as window since arrow function does not have its own this and point to its parent
 ----------------------------------------------------------------------------------------------------------------------

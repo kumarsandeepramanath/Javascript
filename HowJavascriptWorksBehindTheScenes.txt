@@ -93,3 +93,9 @@ const jonas = {
 
 jonas.calcAge(); // this will print jonas object since it is tied to an object
 ----------------------------------------------------------------------------------------------------------------------
+const addExpr = function(a,b){
+  console.log(arguments) 
+}
+
+addExpr(1,2) // This will print 1,2
+addExpr(1,2,3,4) // This will print 1,2,3,4 

@@ -99,3 +99,10 @@ const addExpr = function(a,b){
 
 addExpr(1,2) // This will print 1,2
 addExpr(1,2,3,4) // This will print 1,2,3,4 
+----------------------------------------------------------------------------------------------------------------------
+Every primitive value is stored in the Stack
+Every Reference value is stored in the Heap. But is reference is available in the Stack
+----------------------------------------------------------------------------------------------------------------------
+Object.assign : This will create a clone of the object which can be changed
+const jessicaCopy = Object.assign({}, jessica)
+----------------------------------------------------------------------------------------------------------------------

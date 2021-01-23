@@ -11,9 +11,20 @@ O/p : will have the name, openingHours object and the category array
 The order will not matter but the name present in the object has to be the same
 If we have to rename the properties, it can be done as below :
 
-const {name:restaurantName, openingHours :hours,category:restaurantCategory} = restaurant
+const {name:restaurantName, openingHours :hours,category:restaurantCategory} = restaurant 
 --------------------------------------------------------------------------------------------------------------
+Destructuring of Nested Object
 
+const {sat} = openingHours;
+console.log(sat);
+
+o/p : {open: 0, close: 24}
+
+
+const {sat: { open, close }} = openingHours;
+console.log(open, close);
+
+o/p : 7,14
 --------------------------------------------------------------------------------------------------------------
 
 --------------------------------------------------------------------------------------------------------------

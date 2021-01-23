@@ -7,6 +7,11 @@ Destructuring of object : The properties in LHS should have the same name as RHS
 const {name,openingHours, category} = restaurant
 
 O/p : will have the name, openingHours object and the category array
+
+The order will not matter but the name present in the object has to be the same
+If we have to rename the properties, it can be done as below :
+
+const {name:restaurantName, openingHours :hours,category:restaurantCategory} = restaurant
 --------------------------------------------------------------------------------------------------------------
 
 --------------------------------------------------------------------------------------------------------------

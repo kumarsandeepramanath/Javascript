@@ -68,5 +68,8 @@ Short-circuiting:
 console.log(undefined || 0 || '' || 'Hello' || 23);
 //o/p => Hello , since it is the first truthy value
 --------------------------------------------------------------------------------------------------------------
-
+//Nullish:  null and undefined
+restaurant.guessNum = 0;
+const guessCorrect = restaurant.guessNum ?? 10;
+console.log(guessCorrect); o/p =>0 since there is a ?? operator
 --------------------------------------------------------------------------------------------------------------

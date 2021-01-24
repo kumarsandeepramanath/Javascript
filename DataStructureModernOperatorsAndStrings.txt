@@ -49,7 +49,11 @@ Iterables are arrays, strings, maps and NOT Objects
 Spread : It is used to unpack elements from an array
 Rest   : It is use to pack elements into an array
 --------------------------------------------------------------------------------------------------------------
+// Rest is the opposite of Spread operator
+const myArray1 = [1, 2, 3, 4, 5];
+const [g, h, ...others] = myArray1;
 
+console.log(g, h, others); o/p => 1,2,[3,4,5]
 --------------------------------------------------------------------------------------------------------------
 
 --------------------------------------------------------------------------------------------------------------

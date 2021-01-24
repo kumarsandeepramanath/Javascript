@@ -35,8 +35,16 @@ console.log(newArr); // [1,2,3,7,8,9]
 Spread Operator can be used for "MERGING ARRAY" AND "CREATING SHALLOW COPIES"
 const mainMenuCopy = [...restaurant.mainMenu];
 console.log(mainMenuCopy);
---------------------------------------------------------------------------------------------------------------
 
+
+// Join 2 or more arrays
+
+const arr3 = [1, 2, 3];
+const arr4 = [4, 5, 6];
+const newJoinedArr = [...arr3, ...arr4];
+console.log(newJoinedArr);
+--------------------------------------------------------------------------------------------------------------
+Iterables are arrays, strings, maps and NOT Objects
 --------------------------------------------------------------------------------------------------------------
 
 --------------------------------------------------------------------------------------------------------------

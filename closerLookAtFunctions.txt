@@ -1,2 +1,2 @@
 Higher Order function : A function that recieves another function as an argument, that returns a new function or both
-We will discuss about function returning functions. The next is about call method
+We will discuss about function returning functions. The next is about call method. The one after that is apply method

@@ -9,6 +9,6 @@ Here, book() was created in the lufthansa object. But now we are specifying it s
 book.call(euroWings, 'E12312', 'Federer');
 ---------------------------------------------------------------------------------------------------------------------
 The apply() does the same as call() but instead of the values, it takes an array as a parameter
-
+THE APPLY METHOD IS NOT USED ANYMORE
 const flightDetails = ['A12312','Larry']
 book.apply(euroWings,flightDetails)

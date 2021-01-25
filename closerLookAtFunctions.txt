@@ -1,1 +1,9 @@
 Higher Order function : A function that recieves another function as an argument, that returns a new function or both
+---------------------------------------------------------------------------------------------------------------------
+call() : This is used to call a method that was created inside another object. 
+         But now we specify through which object it should be called.
+
+The call method helps in avoid duplicating the code 
+const book  = lufthansa.book()
+Here, book() was created in the lufthansa object. But now we are specifying it should be called under which object
+book.call(euroWings, 'E12312', 'Federer');

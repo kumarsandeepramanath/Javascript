@@ -22,6 +22,7 @@ After using the bind(), we are now able to call the bookEW() as we were calling 
 more info on bind method
 some more info on bind method
 Additional info on bind method
+Last set of info on bind method
 ---------------------------------------------------------------------------------------------------------------------
 
 ---------------------------------------------------------------------------------------------------------------------

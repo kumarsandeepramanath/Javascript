@@ -56,8 +56,8 @@ restaurantCopy.name = 'Fresh name'
 console.log(restaurantCopy.name) // Fresh name
 console.log(restaurantCopy.name) // Old name
 --------------------------------------------------------------------------------------------------------------
-Spread : It is used to unpack elements from an array
-Rest   : It is use to pack elements into an array. It does the opposite of SPREAD
+Spread : It is used to unpack elements from an array . It is present on ehe RIGHT side of =
+Rest   : It is use to pack elements into an array. It does the opposite of SPREAD.  It is present on the LEFT side of =
 --------------------------------------------------------------------------------------------------------------
 // Rest is the opposite of Spread operator
 const myArray1 = [1, 2, 3, 4, 5];

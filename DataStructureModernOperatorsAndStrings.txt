@@ -50,6 +50,11 @@ const newJoinedArr = [...arr3, ...arr4];
 console.log(newJoinedArr);
 --------------------------------------------------------------------------------------------------------------
 Iterables are arrays, strings, maps and NOT Objects
+With SPREAD operator, we can make copies of the Objects
+const restaurantCopy = {...restaurant}
+restaurantCopy.name = 'Fresh name'
+console.log(restaurantCopy.name) // Fresh name
+console.log(restaurantCopy.name) // Old name
 --------------------------------------------------------------------------------------------------------------
 Spread : It is used to unpack elements from an array
 Rest   : It is use to pack elements into an array

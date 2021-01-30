@@ -85,3 +85,4 @@ const guessCorrect = restaurant.guessNum ?? 10;
 console.log(guessCorrect); o/p =>0 since there is a ?? operator
 --------------------------------------------------------------------------------------------------------------
 Mini Project on DS5
+One more project tomorrow

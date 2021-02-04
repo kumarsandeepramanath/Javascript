@@ -45,12 +45,14 @@ console.log(...myArr) o/p => 1,2,3,4,5
 
 --------------------------------------------------------------------------------------------------------------
 Spread Operator can be used for "MERGING ARRAY" AND "CREATING SHALLOW COPIES"
+
+// Merging Array
 const mainMenuCopy = [...restaurant.mainMenu];
 console.log(mainMenuCopy);
 
 
 // Join 2 or more arrays
-
+// Shallow Copy
 const arr3 = [1, 2, 3];
 const arr4 = [4, 5, 6];
 const newJoinedArr = [...arr3, ...arr4];

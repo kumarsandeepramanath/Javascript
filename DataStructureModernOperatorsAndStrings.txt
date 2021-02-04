@@ -6,7 +6,7 @@ IF THERE IS AN ARRAY ON THE LEFT side of '=', then it is destructuring AN ARRAY.
 
 We can recieve 2 values from a function from an array and assign at once using destructuring operator
 --------------------------------------------------------------------------------------------------------------
-Destructuring of object : The properties in LHS should have the same name as RHS
+Destructuring of object : The PROPERTIES NAME OF OBJECTS in LHS should have the same name as RHS
 const {name,openingHours, category} = restaurant
 
 O/p : will have the name, openingHours object and the category array

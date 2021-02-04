@@ -2,6 +2,9 @@ Destructuring of array : It is a method of breaking down arrays into smaller uni
 const arr1 = [2, 3, [4, 5]];
 const [x, , [y, z]] = arr1;
 console.log(x, y, z);
+IF THERE IS AN ARRAY ON THE LEFT side of '=', then it is destructuring AN ARRAY.
+
+We can recieve 2 values from a function from an array and assign at once using destructuring operator
 --------------------------------------------------------------------------------------------------------------
 Destructuring of object : The properties in LHS should have the same name as RHS
 const {name,openingHours, category} = restaurant
@@ -12,6 +15,8 @@ The order will not matter but the name present in the object has to be the same
 If we have to rename the properties, it can be done as below :
 
 const {name:restaurantName, openingHours :hours,category:restaurantCategory} = restaurant 
+
+IF THERE IS AN OBJECT ON THE LEFT side of '=', then it is destructuring AN OBJECT.
 --------------------------------------------------------------------------------------------------------------
 Destructuring of Nested Object
 

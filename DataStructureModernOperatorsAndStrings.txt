@@ -36,6 +36,8 @@ const arr = [7, 8, 9];
 const newArr = [1,2,3, ...arr];
 console.log(newArr); // [1,2,3,7,8,9]
 
+SPREAD OPERATOR is on the RIGHT SIDE OF '='
+
 Spread operator helps in getting the elements of the array individually
 Ex. myArr = [1,2,3,4,5]
 console.log(myArr) o/p => [1,2,3,4,5]

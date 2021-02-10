@@ -117,4 +117,7 @@ console.log('Users Array Empty')
 **Looping Objects with Object.keys()**
 
 for (const days of Object.keys(restaurant.openingHours)) console.log(days);
-
+--------------------------------------------------------------------------------------------------------------
+** Looping Objects with Object.values()**
+for (const values of Object.values(restaurant.openingHours))
+  console.log(values);

@@ -99,3 +99,9 @@ console.log(item)
 
 Get the index of for-of loop
 for (const item of menu.entries()) console.log(item);
+--------------------------------------------------------------------------------------------------------------
+?. operator is used to check if a property exists.
+It will otherwise give an unefined.
+
+console.log(restaurant.openingHours.mon?.openingHours);
+

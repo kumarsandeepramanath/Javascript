@@ -96,3 +96,6 @@ console.log(guessCorrect); o/p =>0 since there is a ?? operator
 for-of loop is used instead of the traditional for-loop
 for (const item of menu)
 console.log(item)
+
+Get the index of for-of loop
+for (const item of menu.entries()) console.log(item);

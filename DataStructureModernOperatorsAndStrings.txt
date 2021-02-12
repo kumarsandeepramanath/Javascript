@@ -145,4 +145,7 @@ orderedSets.has('Pizza') //True or False depending on whether the element is pre
 const staff = ['waiter', 'chef', 'waiter', 'master'];
 const uniqueSet = new Set(staff);
 console.log(uniqueSet);
+
+const uniqueSetAsArray = [...new Set(staff)];
+console.log(uniqueSetAsArray);
 --------------------------------------------------------------------------------------------------------------

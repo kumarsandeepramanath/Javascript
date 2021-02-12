@@ -141,4 +141,6 @@ SETS
 ----
 orderedSets.size | This is used to get the length of a set
 orderedSets.has('Pizza') //True or False depending on whether the element is present or not
+
+const uniqueSet = new Set(staff )
 --------------------------------------------------------------------------------------------------------------

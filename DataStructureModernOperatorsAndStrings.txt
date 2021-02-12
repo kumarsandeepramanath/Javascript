@@ -129,3 +129,15 @@ console.log(x) // THIS WILL GIVE KEY + VALUES
 Index + Item
 for (const [index, item] of game2.scored.entries())
   console.log(`Goal ${index + 1}: ${item}`);
+--------------------------------------------------------------------------------------------------------------
+If an object has 2 properties, then instead of using [0],[1], better to destructure and use it in for loop
+for (const [item, odd] of Object.entries(game2.odds)) {
+  let teamName = game[item] || 'draw'; // let teamName = game2[item[0]] || 'draw';
+  let teamPoints = odd;                // let teamPoints = odd;
+  console.log(`Odd of victory ${teamName} : ${teamPoints}`);
+}
+--------------------------------------------------------------------------------------------------------------
+SETS
+----
+orderedSets.size | This is used to get the length of a set
+--------------------------------------------------------------------------------------------------------------

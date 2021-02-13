@@ -147,5 +147,6 @@ const uniqueSet = new Set(staff);
 console.log(uniqueSet);
 
 const uniqueSetAsArray = [...new Set(staff)];
+console.log('Set details')
 console.log(uniqueSetAsArray);
 --------------------------------------------------------------------------------------------------------------

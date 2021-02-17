@@ -162,3 +162,4 @@ console.log(rest.get('name'))
 
 //Convert Object to Map
 const hoursMap = new Map(Object.entries(openingHours));
+

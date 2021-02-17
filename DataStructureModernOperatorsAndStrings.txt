@@ -157,3 +157,5 @@ rest.set('name', 'Classic Italiano');
 rest.set(1, 'Firenze, Italy');
 console.log(rest.set(2, 'Lisbon, Portugal'));
 
+// GET AN ELEMENT FROM THE MAP
+console.log(rest.get('name'))

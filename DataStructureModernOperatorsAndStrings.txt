@@ -159,3 +159,6 @@ console.log(rest.set(2, 'Lisbon, Portugal'));
 
 // GET AN ELEMENT FROM THE MAP
 console.log(rest.get('name'))
+
+//Convert Object to Map
+const hoursMap = new Map(Object.entries(openingHours));

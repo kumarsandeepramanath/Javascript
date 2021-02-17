@@ -154,7 +154,17 @@ Maps: Stores Key-Value pair
 
 const rest = new Map();
 rest.set('name', 'Classic Italiano');
-rest.set(1, 'Firenze, Italy');
+rest.set(1, 'Firenze, I
+Arrays vs SETS
+Arrays : Use when you need ordered list of values
+         Use when you want to manipulate Data
+
+Sets   : Use when you want unique value
+         Using of set yields in high performance
+         Use when you want to remove duplicates  
+--------------------------------------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------------------------------------taly');
 console.log(rest.set(2, 'Lisbon, Portugal'));
 
 // GET AN ELEMENT FROM THE MAP
@@ -162,10 +172,21 @@ console.log(rest.get('name'))
 
 //Convert Object to Map
 const hoursMap = new Map(Object.entries(openingHours));
-
+--------------------------------------------------------------------------------------------------------------
 // Types of DataStructures 
 
 Array
 Set
 Map
 Object
+--------------------------------------------------------------------------------------------------------------
+Arrays vs SETS
+Arrays : Use when you need ordered list of values
+         Use when you want to manipulate Data
+
+Sets   : Use when you want unique value
+         Using of set yields in high performance
+         Use when you want to remove duplicates  
+--------------------------------------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------------------------------------

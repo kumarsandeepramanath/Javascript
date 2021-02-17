@@ -163,7 +163,9 @@ Sets   : Use when you want unique value
          Using of set yields in high performance
          Use when you want to remove duplicates  
 --------------------------------------------------------------------------------------------------------------
-
+OBJECTS vs MAP
+Objects : More traditional way of working with key
+Maps    : Have higher performance
 --------------------------------------------------------------------------------------------------------------taly');
 console.log(rest.set(2, 'Lisbon, Portugal'));
 
@@ -188,5 +190,7 @@ Sets   : Use when you want unique value
          Using of set yields in high performance
          Use when you want to remove duplicates  
 --------------------------------------------------------------------------------------------------------------
-
+OBJECTS vs MAP
+Objects : More traditional way of working with key
+Maps    : Have higher performance
 --------------------------------------------------------------------------------------------------------------

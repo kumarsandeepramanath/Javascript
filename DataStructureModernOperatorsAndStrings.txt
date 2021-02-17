@@ -196,7 +196,11 @@ Maps    : Have higher performance
 --------------------------------------------------------------------------------------------------------------
 STRINGS
 =======
-indexOf() :  This lets us find an element at a position
+
+const airline = 'TAP Air Portugal';
+console.log(airline.indexOf('A')); // 1 - This lets us find an element at a position
+console.log(airline.slice(4)); // Air Portugal - The number of 4 will be the start index
+
 --------------------------------------------------------------------------------------------------------------
 
 --------------------------------------------------------------------------------------------------------------

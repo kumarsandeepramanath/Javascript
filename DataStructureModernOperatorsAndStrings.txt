@@ -206,7 +206,7 @@ const announcement = 'All passenger come to room 23, room 23 please';
 console.log(announcement.replaceAll('room', 'gate')); //replaces all occourance
 console.log(airline.includes('Portugal')); // Returns a Boolean
 console.log(airline.split(' ')) // Will split the string into an array based on space
-
+console.log(['Mr', airline.split(' ')[0], airline.split(' ')[1]].join('---')); //Join does a reverse of split
 --------------------------------------------------------------------------------------------------------------
 
 --------------------------------------------------------------------------------------------------------------

@@ -204,6 +204,8 @@ console.log(airline.slice(4, 7)); // Air - slice(startIndex,endIndex). ** endInd
 console.log(airline.slice(1, -1)); // AP Air Portuga - startIndex = 1 and endIndex = -1. So -1 removes last value
 const announcement = 'All passenger come to room 23, room 23 please';
 console.log(announcement.replaceAll('room', 'gate')); //replaces all occourance
+console.log(airline.includes('Portugal')); // Returns a Boolean
+
 --------------------------------------------------------------------------------------------------------------
 
 --------------------------------------------------------------------------------------------------------------

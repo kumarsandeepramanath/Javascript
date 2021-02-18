@@ -202,7 +202,8 @@ console.log(airline.indexOf('A')); // 1 - This lets us find an element at a posi
 console.log(airline.slice(4)); // Air Portugal - The number of 4 will be the start index
 console.log(airline.slice(4, 7)); // Air - slice(startIndex,endIndex). ** endIndex - startIndex = length of string
 console.log(airline.slice(1, -1)); // AP Air Portuga - startIndex = 1 and endIndex = -1. So -1 removes last value
-
+const announcement = 'All passenger come to room 23, room 23 please';
+console.log(announcement.replaceAll('room', 'gate')); //replaces all occourance
 --------------------------------------------------------------------------------------------------------------
 
 --------------------------------------------------------------------------------------------------------------

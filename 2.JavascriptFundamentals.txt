@@ -1,2 +1,4 @@
 <script src="script.js"></script>
 This is to refer an Javascript file
+
+Number, Letter, _, $ are allowed while declaring variables

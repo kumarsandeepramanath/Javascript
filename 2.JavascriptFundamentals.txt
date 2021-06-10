@@ -2,3 +2,43 @@
 This is to refer an Javascript file
 
 Number, Letter, _, $ are allowed while declaring variables
+
+The <script> is added in the <head> section
+The link to the script tag is added in the body after the content , i.e at the end
+-----------------------------------------------------------------------------------------------------------------------
+DataTypes : (BBUNNSS)
+Number    : Floating point Number
+String    : Sequence of charecters
+Boolean   : True or False
+Undefined : Value taken by the variable that is not yet defined
+Null      : Empty value
+Symbol    : Value that is unique and cannot be changed
+BigInt    : Larger integers that the Number cant hold
+
+Javascript is DYNAMICALLY TYPED
+-----------------------------------------------------------------------------------------------------------------------
+typeof | This is used to know the type of the variable
+console.log(typeof null) => object
+-----------------------------------------------------------------------------------------------------------------------
+let    | It is the modern way of declaring a variable
+var    | It is the old way of declaring a variable
+-----------------------------------------------------------------------------------------------------------------------
+Literal String :
+const jonas = `I'm ${firstName} having the job of a ${teacher} and born in ${birthYear}! `
+-----------------------------------------------------------------------------------------------------------------------
+Type coersion : When we have string and in between a number , then the number is converted into a string
+Except "+" operator, the evaluation happens as though it was not a string.  ex. console.log("25" -"3") will give 22
+-----------------------------------------------------------------------------------------------------------------------
+5 falsy values :
+0
+''
+undefined
+null
+NaN
+-----------------------------------------------------------------------------------------------------------------------
+Expression | It produces a value Ex. 25+3 
+Statement  | It is just a piece of logic Ex. if(25>23) console.log("Good")
+-----------------------------------------------------------------------------------------------------------------------
+ES6/ES2015 was released in June 2015
+-----------------------------------------------------------------------------------------------------------------------
+Javascript is backward compatible. I.E Put an Javascript code written in 1991 and run it on modern browser, it works

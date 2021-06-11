@@ -48,3 +48,6 @@ Statement  | It is just a piece of logic Ex. if(25>23) console.log("Good")
 ES6/ES2015 was released in June 2015
 -----------------------------------------------------------------------------------------------------------------------
 Javascript is backward compatible. I.E Put an Javascript code written in 1991 and run it on modern browser, it works
+ES5 : 
+     Fully supported in all browsers from (down from IE9 to 2011)
+     Ready to be used

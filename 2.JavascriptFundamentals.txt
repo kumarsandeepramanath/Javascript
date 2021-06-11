@@ -25,6 +25,10 @@ var    | It is the old way of declaring a variable
 -----------------------------------------------------------------------------------------------------------------------
 Literal String :
 const jonas = `I'm ${firstName} having the job of a ${teacher} and born in ${birthYear}! `
+console.log("23" + "2") // 2321
+console.log("23" - "2") // 21
+console.log("23" * "2") // 46
+console.log("20" / "2") // 10
 -----------------------------------------------------------------------------------------------------------------------
 Type convertion :  When we manually convert from one type to another
 Type coersion   :  When the type gets automatically converted

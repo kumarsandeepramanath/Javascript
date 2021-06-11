@@ -26,6 +26,8 @@ var    | It is the old way of declaring a variable
 Literal String :
 const jonas = `I'm ${firstName} having the job of a ${teacher} and born in ${birthYear}! `
 -----------------------------------------------------------------------------------------------------------------------
+Type convertion :  When we manually convert from one type to another
+Type coersion   :  When the type gets automatically converted
 Type coersion : When we have string and in between a number , then the number is converted into a string
 Except "+" operator, the evaluation happens as though it was not a string.  ex. console.log("25" -"3") will give 22
 -----------------------------------------------------------------------------------------------------------------------

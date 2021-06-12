@@ -1,6 +1,7 @@
 'use strict' is used to enable strict mode
 If strict mode is not there, then the user will be able to initialize a variable that has not be declared
 This should always be the first line
+If there is an undefined variable, with strict mode, it will help in displaying the message
 
 Ex. hasUsers = True
 

@@ -4,10 +4,16 @@ This should always be the first line
 If there is an undefined variable, with strict mode, it will help in displaying the message
 
 ---------------------------------------------------------------------------------------------------
-Difference between PARAMETERS and ARGUMENTS :
+***Difference between PARAMETERS and ARGUMENTS :***
 When we call a function it is called arguments
 When we create a function it is called as PARAMETERS
 
+function printVal(param1, param 2)
+{
+    console.log(param1 + param2)
+}
+printVal(2,4) // 2 and 4 are arguments
+---------------------------------------------------------------------------------------------------
 
 Ex. hasUsers = True
 

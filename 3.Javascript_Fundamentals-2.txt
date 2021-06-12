@@ -3,6 +3,12 @@ If strict mode is not there, then the user will be able to initialize a variable
 This should always be the first line
 If there is an undefined variable, with strict mode, it will help in displaying the message
 
+---------------------------------------------------------------------------------------------------
+Difference between PARAMETERS and ARGUMENTS :
+When we call a function it is called arguments
+When we create a function it is called as PARAMETERS
+
+
 Ex. hasUsers = True
 
 hasUser = false // This would throw an error saying that the variable hasUser is not defined

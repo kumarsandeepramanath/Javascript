@@ -34,13 +34,15 @@ const my_func2 = function(param1){
 
 Function Declaration can be called before and declared later
 Function Expression needs to be declared first and then be called.
+---------------------------------------------------------------------------------------------------
 
 Arrow Function :
 const calAge3 = birthYear => 2021 - birthYear
 
 Calling function has arguments
 Callee function has paremeters
-
+---------------------------------------------------------------------------------------------------
+Array are not primitive
 In Array, after creating, the entire Array cant  be changed
 
 const friends = ['a', 'b', 'c']

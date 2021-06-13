@@ -2,11 +2,11 @@ document.querySelector('.className) | This technique is used to select a particu
 console.log(document.querySelector('.message').textContent); 
 querySelector is used to select the element
 textContent   is used to get the text out of the element
-
+---------------------------------------------------------------------------------------------------
 DOM methods are properties are not part of Javascript. They are part of Web APIs. 
 The Web APIs are libraries which are written in Javascript
 Timers, Fetch API are also other Web APIs that are available
-
+---------------------------------------------------------------------------------------------------
 Set CSS properties
 document.querySelector('body').style.backgroundColor = 'green';
 
@@ -15,7 +15,12 @@ document.querySelector('.check').addEventListener('click', function () {}
 Always follow the DRY principle
 When there is majority of code which is same and just a condition that changes, Ternary operator is the best option
 Math.trunc() : This will help in removing the decimal part of a number
+---------------------------------------------------------------------------------------------------
+If we need to generate a Random numbers from 1-20,
+const randomNum = Math.trunc(Math.random()*20)+1
 
+We are using a  "+1" because we are generating a number which will be in decimal and will be less than 20
+---------------------------------------------------------------------------------------------------
 While generating a random number, if a random of 20 numbers have to be generated, then Math.random()*20 +1 will do
 Always use a '===' instead of the '==' since it also checks for the type
 

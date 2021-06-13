@@ -10,7 +10,8 @@ console.log  -> cl
 TODO Highlight > Extension
 
 -------------------------------------------------------------------------------------------------------------------
-Live Server extension on VS Code helps in acting as a LIVE server
+Live Server extension on VS Code helps in acting as a LIVE server.
+Once the extension is installed, we can automatically see the changes once we write code and save it
 
 npm Install live-server -g | TO install Live server
 live-server                | This will run the live server

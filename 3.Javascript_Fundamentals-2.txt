@@ -63,3 +63,6 @@ Dot notation
 Bracket notation
 james.firstName //Dot notation
 james["firstName] // Bracket notation
+
+
+content -> padding -> border -> margin

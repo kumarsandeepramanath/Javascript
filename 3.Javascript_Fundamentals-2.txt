@@ -66,3 +66,6 @@ james["firstName] // Bracket notation
 
 
 content -> padding -> border -> margin
+white Space between content and border is padding
+spce between 2 elements is margin
+padding is surrounded by border

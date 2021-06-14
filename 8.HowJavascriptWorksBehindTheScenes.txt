@@ -1,9 +1,9 @@
 Javascript is :
-Highlevel
-Garbage Collected
-Interpreted or JIT complied
-Multi-paradigm
-Prototype-based Object Oriented
+Highlevel                       : We do not write machine code
+Garbage Collected               : Happens using Javascript engine
+Interpreted or JIT complied     : Code is either compiled or Interpreted
+Multi-paradigm                  : Prodedural, Functional, Object Oriented
+Prototype-based Object Oriented : We create an Array from an Array blueprint
 First-class functions
 Dynamic
 Single Threaded

@@ -1,3 +1,14 @@
+Javascript is :
+Highlevel
+Garbage Collected
+Interpreted or JIT complied
+Multi-paradigm
+Prototype-based Object Oriented
+First-class functions
+Dynamic
+Single Threaded
+Non-blocking event loop
+----------------------------------------------------------------------------------------------------------------------
 ProtoTyping : In JS, there is a prototype Ex. Array has a prototype with a list of all properties and methods.
 Then using this prototype, objects are created in JS
 ----------------------------------------------------------------------------------------------------------------------

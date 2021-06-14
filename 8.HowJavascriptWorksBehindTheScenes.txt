@@ -30,15 +30,24 @@ First-class function : A function in which we treat functions just like variable
   1. Call Stack : Call Stack is where execution happens. It has an execution context
   2. Heap       : Heap is where objects are stored
 ----------------------------------------------------------------------------------------------------------------------
+Compilation     : Entire code is converted to machine code at once, and written to a Binary file that can be executed by the computer
+                  Source Code -> COMPILATION => Portal Machine Code -> EXECUTION => Program running
+Interpretation  : Interpreter runs through the Source code and executes line by line
+                  Source Code -> EXECUTION LINE BY LINE -> Program running
+JIT Compilation : Entire code is converted to machine code at once, then executed immediately
+                  Source Code -> COMPILATION => Machine Code (Not a Portable code) -> Execution (Happens immediately) => Program running
+----------------------------------------------------------------------------------------------------------------------
   Current Javascript is not an interpreted language anymore.
   It makes use of JIT - Just-In-Time compilation. Entire code is converted into machine code and executed at once
   ----------------------------------------------------------------------------------------------------------------------
+  WHAT HAPPENS INSIDE A JS ENGINE :
+
   Code -> Parser(Read the code and create AST - Abstract Syntax tree) -> 
   Compilation (Takes AST and converts in machine code)-> Execution (Machine code is executed)
 
   Execution happens in the callstack
   The machine code is optimized and again sent to compiler and gets a more optimized machine code.
-  This can happen several times and then less optimzed code is replaced with a more optimzed code
+  This can happen several times and then less optimized code is replaced with a more optimzed code
   ----------------------------------------------------------------------------------------------------------------------
   We have 3 components in a Javascript runtime :
   1. Javascript engine :  This will be used to Parse -> Compile and Execute Javascript

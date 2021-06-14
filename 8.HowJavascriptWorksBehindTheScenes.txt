@@ -4,10 +4,10 @@ Garbage Collected               : Happens using Javascript engine
 Interpreted or JIT complied     : Code is either compiled or Interpreted
 Multi-paradigm                  : Prodedural, Functional, Object Oriented
 Prototype-based Object Oriented : We create an Array from an Array blueprint
-First-class functions
-Dynamic
-Single Threaded
-Non-blocking event loop
+First-class functions           : We treat function as variables( Pass function to method)
+Dynamic                         : Dynamically typed
+Single Threaded                 : How JS handles multiple tasks at the same time. JS is SINGLE THREADED
+Non-blocking event loop         : Concurrent execution happens with event loop - tasks execute in background and puts them to main thread once completed
 ----------------------------------------------------------------------------------------------------------------------
 ProtoTyping : In JS, there is a prototype Ex. Array has a prototype with a list of all properties and methods.
 Then using this prototype, objects are created in JS

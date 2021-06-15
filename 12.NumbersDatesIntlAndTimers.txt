@@ -4,3 +4,6 @@ console.log(Number.parseInt('23px)) // 23 => Here it will take the number part o
 It should always start with a number
 
 console.log(Number.parseFloat('2.5rem)) // 2.5 => Here it will take the floating number part of the string.
+
+console.log(Number.isFinite(20)) // true => This is how we identify is a value is a number
+console.log(Number.isFinite('20')) // false => This is how we identify is a value is a number

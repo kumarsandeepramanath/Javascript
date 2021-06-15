@@ -1,1 +1,4 @@
 All Numbers are FLOATING POINT NUMBERS
+
+console.log(Number.parseInt('23px)) // 23 => Here it will take the number part of the string.
+It should always start with a number

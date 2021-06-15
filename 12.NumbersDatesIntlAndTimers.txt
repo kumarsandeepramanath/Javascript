@@ -2,3 +2,5 @@ All Numbers are FLOATING POINT NUMBERS
 
 console.log(Number.parseInt('23px)) // 23 => Here it will take the number part of the string.
 It should always start with a number
+
+console.log(Number.parseFloat('2.5rem)) // 2.5 => Here it will take the floating number part of the string.

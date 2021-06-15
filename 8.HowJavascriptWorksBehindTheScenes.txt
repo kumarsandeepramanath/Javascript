@@ -41,6 +41,7 @@ JIT Compilation : Entire code is converted to machine code at once, then execute
   It makes use of JIT - Just-In-Time compilation. Entire code is converted into machine code and executed at once
   ----------------------------------------------------------------------------------------------------------------------
   WHAT HAPPENS INSIDE A JS ENGINE :
+  ====
 
   Code -> Parser(Read the code and create AST - Abstract Syntax tree) -> 
   Compilation (Takes AST and converts in machine code)-> Execution (Machine code is executed)

@@ -12,5 +12,5 @@ Generate Random number between a minimum and a maxiumum number :
 const randomInt = (min,max) => Math.trunc(Math.random() * (max -min)+1)+ min 
 
 console.log(Math.trunc(23.3)) // 23 => removes the decimal part 
-console.log(Math.floor(23.3)) // floor =>Gives lower number
-console.log(Math.trunc(23.3)) // Gives higher number
+console.log(Math.floor(23.3)) // 23 => Gives lower number
+console.log(Math.ceil(23.3)) // 24 => Gives higher number

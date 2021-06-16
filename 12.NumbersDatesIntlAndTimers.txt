@@ -7,3 +7,8 @@ console.log(Number.parseFloat('2.5rem)) // 2.5 => Here it will take the floating
 
 console.log(Number.isFinite(20)) // true => This is how we identify is a value is a number
 console.log(Number.isFinite('20')) // false => This is how we identify is a value is a number
+
+Generate Random number between a minimum and a maxiumum number :
+const randomInt = (min,max) => Math.trunc(Math.random() * (max -min)+1)+ min 
+
+console.log(Math.trunc(23.3)) // removes the decimal part

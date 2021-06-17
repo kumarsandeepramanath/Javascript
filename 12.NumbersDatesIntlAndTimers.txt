@@ -41,3 +41,14 @@ setInterval(function(){
 const now = new Date()
 console.log(now)
 },1000) // Here it will console the current date every 1 sec
+----------------------------------------------------------------------------------------------------------------------
+Countdown timer :
+
+const startLogout = function () {
+  let time = 100;
+  setInterval(function () {
+    console.log(time);
+    time--;
+  }, 1000);
+};
+startLogout();

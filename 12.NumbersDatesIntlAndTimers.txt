@@ -34,3 +34,10 @@ if(ingredients.includes('spinach'))
 
 }
 clearTimeout(pizzaTimer) // stopping the timer
+----------------------------------------------------------------------------------------------------------------------
+setInterval : It executes a particular code with every interval set
+
+setInterval(function(){
+const now = new Date()
+console.log(now)
+},1000) // Here it will console the current date every 1 sec

@@ -52,3 +52,17 @@ const startLogout = function () {
   }, 1000);
 };
 startLogout();
+----------------------------------------------------------------------------------------------------------------------
+Stop the Countdown time :
+const startLogout = function () {
+  let time = 10;
+  setInterval(function () {
+    if (time <= 0) {
+      return;
+    }
+
+    console.log(time);
+    time--;
+  }, 1000);
+};
+startLogout();

@@ -56,9 +56,9 @@ startLogout();
 Stop the Countdown time :
 const startLogout = function () {
   let time = 10;
-  setInterval(function () {
+  const timer = setInterval(function () {
     if (time <= 0) {
-      return;
+      clearInterval(timer);
     }
 
     console.log(time);
@@ -66,3 +66,4 @@ const startLogout = function () {
   }, 1000);
 };
 startLogout();
+

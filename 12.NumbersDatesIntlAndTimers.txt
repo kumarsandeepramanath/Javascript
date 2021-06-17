@@ -14,3 +14,14 @@ const randomInt = (min,max) => Math.trunc(Math.random() * (max -min)+1)+ min
 console.log(Math.trunc(23.3)) // 23 => removes the decimal part 
 console.log(Math.floor(23.3)) // 23 => Gives lower number
 console.log(Math.ceil(23.3)) // 24 => Gives higher number
+
+Date Creation :
+4 ways :
+1. const now = new Date()
+   console.log(now)
+
+2. console.log(new Date('December 24, 2015')) // Pass a String to the Date constructor
+
+----------------------------------------------------------------------------------------------------------------------
+setTimeout() : Executes a method after a set timeout 
+setTimeout(() => console.log('Pizza coming'), 3000) // It means, the console.log() will be executed after 3s

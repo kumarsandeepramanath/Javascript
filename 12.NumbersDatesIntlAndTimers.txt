@@ -26,3 +26,11 @@ Date Creation :
 setTimeout() : Executes a method after a set timeout 
 setTimeout(() => console.log('Pizza coming'), 3000) // It means, the console.log() will be executed after 3s
 setTimeout((ing1, ing2) => console.log(`Pizza coming with ${ing1} and ${ing2}`), 3000, 'olives','spinach') // It means, the console.log() will be executed after 3s along with some parameters
+
+const ingredients = ['olives','spinach']
+const pizzaTimer = setTimeout((ing1, ing2) => console.log(`Pizza coming with ${ing1} and ${ing2}`), 3000, ...ingredients) // It means, the console.log() will be executed after 3s along with some parameters
+if(ingredients.includes('spinach'))
+{
+
+}
+clearTimeout(pizzaTimer) // stopping the timer

@@ -36,7 +36,7 @@ Compilation     : Entire code is converted to machine code at once, and written 
 Interpretation  : Interpreter runs through the Source code and executes line by line
                   Source Code -> EXECUTION LINE BY LINE -> Program running
 JIT Compilation : Entire code is converted to machine code at once, then executed immediately
-                  Source Code -> COMPILATION => Machine Code (Not a Portable code) -> Execution (Happens immediately) => Program running
+                  Source Code -> COMPILATION =>(Step 1) Machine Code (Not a Portable code) -> (Step 2) Execution (Happens immediately) => Program running
 ----------------------------------------------------------------------------------------------------------------------
   Current Javascript is not an interpreted language anymore.
   It makes use of JIT - Just-In-Time compilation. Entire code is converted into machine code and executed at once
@@ -54,7 +54,8 @@ JIT Compilation : Entire code is converted to machine code at once, then execute
   We have 3 components in a Javascript runtime :
   1. Javascript engine :  This will be used to Parse -> Compile and Execute Javascript
   2. Web APIs          :  DOM elements, Timers are part of this.
-  3. Callback queue    :  Any function that needs to be executed will be present here.
+  3. Callback queue    :  It is a data-structure which contains all the call back functions that need to be executed.
+                          Any function that needs to be executed will be present here.
                           When a function has to be executed, then the function is sent to call stack by event loop.
 ----------------------------------------------------------------------------------------------------------------------
 After the code is complied and ready to be executed. a global execution-context for top-level code is created

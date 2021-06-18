@@ -76,7 +76,7 @@ What is inside of Execution context ?
     functions
     arguments objects
 
-2. Scope chain
+2. Scope chain :  It contains reference to the variables that are present outside of the function
 
 3. "this" keyword
 ----------------------------------------------------------------------------------------------------------------------

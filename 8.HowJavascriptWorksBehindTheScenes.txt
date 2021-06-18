@@ -32,7 +32,7 @@ First-class function : A function in which we treat functions just like variable
   2. Heap       : Heap is where objects are stored
 ----------------------------------------------------------------------------------------------------------------------
 Compilation     : Entire code is converted to machine code at once, and written to a Binary file that can be executed by the computer
-                  Source Code -> COMPILATION => Portal Machine Code -> EXECUTION => Program running
+                  Source Code ->(Step 1) COMPILATION => Portal Machine Code -> (Step 2) EXECUTION => Program running
 Interpretation  : Interpreter runs through the Source code and executes line by line
                   Source Code -> EXECUTION LINE BY LINE -> Program running
 JIT Compilation : Entire code is converted to machine code at once, then executed immediately

@@ -60,7 +60,7 @@ JIT Compilation : Entire code is converted to machine code at once, then execute
 ----------------------------------------------------------------------------------------------------------------------
 After the code is complied and ready to be executed. a global execution-context for top-level code is created
 Execution of top-level code happens
-Then the execution of function happens. Every function has its own "execution-context"
+Then the execution of function happens. Every function has its OWN NEW "execution-context"
 ----------------------------------------------------------------------------------------------------------------------
 What is inside of Execution context ?
 1. Variable environment 

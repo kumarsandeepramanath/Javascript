@@ -102,16 +102,18 @@ Before execution, code is scanned for variable declarations, and for each variab
 a new property is created in the variable environment object
 
 Function declarations     : HOISTED  => YES
-var variables             : HOISTED  => YES (value = undefined)
-let, const variables      : HOISTED  => No
+var variables             : HOISTED  => YES (Initial value = undefined)
+let, const variables      : HOISTED  => No  (Reference error)
 function expression/arrow : Depends on whether its var or let/const. (Behaves like a variable)
+
 ----------------------------------------------------------------------------------------------------------------------
 "this" keyword/variable : Special variable that is created for every execution context (every function)
 Takes the value of (points to) the "owner" of the function in which the "this" keyword is used
 
-Method : Object that is calling the methods
-Arrow  : "this" points to the surrounding function since arrow does not own
-Event listerner : "this" points to DOM
+Method          : Object that is calling the methods
+Simple Function : "this" =  undefined
+Arrow           : "this" points to the surrounding/parent function since arrow does not own
+Event listerner : "this" points to DOM element that the handler is attached to
 ----------------------------------------------------------------------------------------------------------------------
 const calcAge2 = function (birthYear) {
   console.log(2037 - birthYear);
@@ -145,6 +147,22 @@ addExpr(1,2) // This will print 1,2
 addExpr(1,2,3,4) // This will print 1,2,3,4 
 ----------------------------------------------------------------------------------------------------------------------
 Every primitive value is stored in the Stack
+Primitives :
+
+Number
+String
+Boolean
+Undefined
+Null
+Symbol
+BigInt
+
+Objects/ Reference Types :
+
+Object
+Array
+Functions
+
 Every Reference value is stored in the Heap. But is reference is available in the Stack
 ----------------------------------------------------------------------------------------------------------------------
 Object.assign : This will create a clone of the object which can be changed

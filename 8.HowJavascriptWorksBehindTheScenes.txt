@@ -98,7 +98,13 @@ If a variable is not available, it will look in the parent scope
 Hoisting : Makes some types of variables accessible/usable in the code before they are actually declared. 
 "Variables lifted to the top of their scope"
 
-Before execution, code is scanned for variable declarations, and for each variable , a new property is created in the variable environment object
+Before execution, code is scanned for variable declarations, and for each variable , 
+a new property is created in the variable environment object
+
+Function declarations     : HOISTED  => YES
+var variables             : HOISTED  => YES (value = undefined)
+let, const variables      : HOISTED  => No
+function expression/arrow : Depends on whether its var or let/const. (Behaves like a variable)
 ----------------------------------------------------------------------------------------------------------------------
 "this" keyword/variable : Special variable that is created for every execution context (every function)
 Takes the value of (points to) the "owner" of the function in which the "this" keyword is used

@@ -90,7 +90,7 @@ Lexical Scoping : Scoping is controlled by placement of functions and blocks in 
 ----------------------------------------------------------------------------------------------------------------------
 3 Types of scope :
 Global Scope   : Outside of any function or block
-Function Scope : Inside a function, Also called local scope. "var" is function scope
+Function Scope : Inside a function, Also called local scope. "var" is function scope. Every function creates its own scope
 Block Scope    : Variables accessed only inside a block.  "let" and "const" are blocked scope
 
 If a variable is not available, it will look in the parent scope

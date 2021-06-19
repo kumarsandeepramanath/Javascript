@@ -79,10 +79,14 @@ What is inside of Execution context ?
 2. Scope chain :  It contains reference to the variables that are present outside of the function
 
 3. "this" keyword
+    Arrow functions do not get the this reference
 ----------------------------------------------------------------------------------------------------------------------
-Call Stack : It has a collection of execution context
+Call Stack : It has a collection of execution context. The execution context are stacked on top of each other in order 
+             to track where we are on the execution
+             The Execution COntext which is on top is the one that is running
 ----------------------------------------------------------------------------------------------------------------------
 Scoping : How is our program's variable organized and accessed. "Where do variables live" ? or "Whre can we access a certain variable and where not"
+Lexical Scoping : Scoping is controlled by placement of functions and blocks in a code
 ----------------------------------------------------------------------------------------------------------------------
 3 Types of scope :
 Global Scope   : Outside of any function or block

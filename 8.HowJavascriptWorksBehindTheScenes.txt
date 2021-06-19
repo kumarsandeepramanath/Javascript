@@ -147,7 +147,7 @@ addExpr(1,2) // This will print 1,2
 addExpr(1,2,3,4) // This will print 1,2,3,4 
 ----------------------------------------------------------------------------------------------------------------------
 Every primitive value is stored in the Stack
-Primitives :
+Primitives : They are stored in the Call Stack
 
 Number
 String
@@ -168,3 +168,35 @@ Every Reference value is stored in the Heap. But is reference is available in th
 Object.assign : This will create a clone of the object which can be changed
 const jessicaCopy = Object.assign({}, jessica)
 ----------------------------------------------------------------------------------------------------------------------
+******** const value cannot be changed for PRIMITIVE values ********
+******** const value can be changed for OBJECT/REFERENCE values ********
+----------------------------------------------------------------------------------------------------------------------
+Primitive and Reference variables are created in STACK
+Reference variables are referced from HEAP
+let age = 30
+let oldAge = age
+age = 31
+console.log(age)
+console.log(oldAge)
+
+const me = {
+  name:'Jonas',
+  age :'30'
+}
+const friend  = me
+friend.age =27
+console.log(me.age) // 27
+console.log(friend.age) // 27
+
+Age points to 0001 with value 30
+oldAge points to 0001 with value 30
+age = 31 , so a new value is created in 0002 with value 31 (value in an Address cannot be changed and hence a new value in new Address is created)
+me is created in 0003 and it has a reference in HEAP that has the actual object
+fried = me , so friend also points to me. since both are referring to the same object reference, change in 1 changes the value of the other
+
+Identifier   Address   value           Address    Value
+=========   =========  =========       =======    ====== 
+age         0001        30             D30F       {name: 'Jonas', age:27}
+oldAge      0002        31
+me          0003        D30F
+friend ------^  

@@ -26,7 +26,7 @@ IF THERE IS AN OBJECT ON THE LEFT side of '=', then it is destructuring AN OBJEC
 
 const {menu=[], starterMenu : starters = []} = restaurant
 Here, menu property does not exist and we are setting a default value of an empty array
-starterMenu is an existing proper and it is being renamed
+starterMenu is an existing proper and it is being renamed 
 --------------------------------------------------------------------------------------------------------------
 Destructuring of Nested Object
  
@@ -53,6 +53,7 @@ Ex. myArr = [1,2,3,4,5]
 console.log(myArr) o/p => [1,2,3,4,5]
 console.log(...myArr) o/p => 1,2,3,4,5
 
+While using the Spread operator, we are creating a new array
 --------------------------------------------------------------------------------------------------------------
 Spread Operator can be used for "MERGING ARRAY" AND "CREATING SHALLOW COPIES"
 

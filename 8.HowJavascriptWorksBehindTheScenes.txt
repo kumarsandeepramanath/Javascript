@@ -169,7 +169,7 @@ Object.assign : This will create a clone of the object which can be changed
 const jessicaCopy = Object.assign({}, jessica)
 ----------------------------------------------------------------------------------------------------------------------
 ******** const value cannot be changed for PRIMITIVE values ********
-******** const value can be changed for OBJECT/REFERENCE values ********
+******** const value(properties) can be changed for OBJECT/REFERENCE values ********
 ----------------------------------------------------------------------------------------------------------------------
 Primitive and Reference variables are created in STACK
 Reference variables are referced from HEAP
@@ -200,3 +200,5 @@ age         0001        30             D30F       {name: 'Jonas', age:27}
 oldAge      0002        31
 me          0003        D30F
 friend ------^  
+----------------------------------------------------------------------------------------------------------------------
+const jessicaCopy = Object.assign({}, jessica) // This creates a shallow copy. Only the parent object is copied. It doesnot create a deep copy

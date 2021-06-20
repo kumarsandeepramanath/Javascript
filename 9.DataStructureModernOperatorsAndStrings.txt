@@ -86,6 +86,7 @@ const [g, h, ...others] = myArray1;
 
 console.log(g, h, others); o/p => 1,2,[3,4,5]
 --------------------------------------------------------------------------------------------------------------
+We can use Spread operator if we need to pass variable number of arguments.
 ///Function with variable number of arguments
 function add(...numbers) {
   console.log(numbers);

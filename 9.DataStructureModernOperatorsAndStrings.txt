@@ -97,10 +97,19 @@ add(1, 2, 3, 4);
 add(1, 2, 3, 4, 5, 6, 7, 8, 9);
 --------------------------------------------------------------------------------------------------------------
 Short-circuiting:
+OR
+==
+If the first value is a "TRUTHY", it will immediately return that value
+But if the first value is not "TRUTHY", then it will go to the 2nd value and return it.
 It need not always return a Boolean
 Ex. console.log(3|| 'Jonas') //3
 console.log(undefined || 0 || '' || 'Hello' || 23);
 //o/p => Hello , since it is the first truthy value
+
+AND
+===
+If the first value is a "FALSY", it will immediately return that value
+But if the first value is not "FALSY", then it will go to the 2nd value and return it.
 --------------------------------------------------------------------------------------------------------------
 //Nullish:  null and undefined
 restaurant.guessNum = 0;
@@ -112,7 +121,7 @@ for (const item of menu)
 console.log(item)
 
 Get the index of for-of loop
-for (const item of menu.entries()) console.log(item);
+for (const item of menu.entries()) console.log(item); // It will give the index and item
 --------------------------------------------------------------------------------------------------------------
 ?. operator is used to check if a property exists.
 It will otherwise give an unefined.

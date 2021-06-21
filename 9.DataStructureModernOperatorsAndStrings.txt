@@ -181,7 +181,9 @@ const uniqueSetAsArray = [...new Set(staff)];
 console.log('Set - After removing the details of an Array. Created with a new Set()')
 console.log(uniqueSetAsArray);
 --------------------------------------------------------------------------------------------------------------
-Maps: Stores Key-Value pair
+Maps: 
+=====
+Stores Key-Value pair
 
 const rest = new Map();
 rest.set('name', 'Classic Italiano');

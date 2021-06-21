@@ -122,11 +122,14 @@ console.log(item)
 
 Get the index of for-of loop
 for (const item of menu.entries()) console.log(item); // It will give the index and item
+for (const [i,el] of menu.entries()) console.log(`${i+1} : ${item[i]}) // Alternate method
 --------------------------------------------------------------------------------------------------------------
 ?. operator is used to check if a property exists.
 It will otherwise give an unefined.
 
 console.log(restaurant.openingHours.mon?.openingHours);
+console.log(restaurant.order?.(0,1) ?? 'Method does not exist') // Optional Chaining in methods
+console.log(users[0]?.name ?? ' Users array empty') // Optional Chaining in Arrays
 --------------------------------------------------------------------------------------------------------------
 Optional Chaining is used along with Nullish coalison operator
 
@@ -139,7 +142,7 @@ console.log('Users Array Empty')
 --------------------------------------------------------------------------------------------------------------
 **Looping Objects with Object.keys()**
 
-for (const days of Object.keys(restaurant.openingHours)) console.log(days);
+for (const days of Object.keys(restaurant.openingHours)) console.log(days); // thur, fri, sat 
 --------------------------------------------------------------------------------------------------------------
 ** Looping Objects with Object.values()**
 for (const values of Object.values(restaurant.openingHours))
@@ -152,6 +155,11 @@ console.log(x) // THIS WILL GIVE KEY + VALUES
 Index + Item
 for (const [index, item] of game2.scored.entries())
   console.log(`Goal ${index + 1}: ${item}`);
+
+for(const [key,{open,close}] of Object.entries(openingHours))
+{
+  console.log(.....) // Logic needs to be completed
+}
 --------------------------------------------------------------------------------------------------------------
 If an object has 2 properties, then instead of using [0],[1], better to destructure and use it in for loop
 for (const [item, odd] of Object.entries(game2.odds)) {
@@ -163,7 +171,7 @@ for (const [item, odd] of Object.entries(game2.odds)) {
 SETS
 ----
 orderedSets.size | This is used to get the length of a set
-orderedSets.has('Pizza') //True or False depending on whether the element is present or not
+orderedSets.has('Pizza') //True or False depending on whether the element is present or not 
 
 const staff = ['waiter', 'chef', 'waiter', 'master'];
 const uniqueSet = new Set(staff);

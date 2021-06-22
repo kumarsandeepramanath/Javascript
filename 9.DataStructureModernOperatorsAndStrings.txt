@@ -149,6 +149,7 @@ for (const values of Object.values(restaurant.openingHours))
   console.log(values);
 --------------------------------------------------------------------------------------------------------------
 ** Printing the entire Object**
+==
 for(const x in Object.entries(restaurant.openingHours))
 console.log(x) // THIS WILL GIVE KEY + VALUES
 --------------------------------------------------------------------------------------------------------------

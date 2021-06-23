@@ -82,7 +82,7 @@ What is inside of Execution context ?
     Arrow functions do not get the this reference
 ----------------------------------------------------------------------------------------------------------------------
 Call Stack : 
-=======
+==========
 It has a collection of execution context. The execution context are stacked on top of each other in order 
              to track where we are on the execution
              The Execution COntext which is on top is the one that is running

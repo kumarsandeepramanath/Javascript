@@ -16,7 +16,7 @@ console.log(Math.floor(23.3)) // 23 => Gives lower number
 console.log(Math.ceil(23.3)) // 24 => Gives higher number
 
 Date Creation :
-===
+=====
 4 ways :
 1. const now = new Date()
    console.log(now)

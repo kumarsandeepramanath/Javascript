@@ -20,7 +20,7 @@ live-server                | This will run the live server
 
 -------------------------------------------------------------------------------------------------------------------
 HOW TO LEARN
-
+=
 * Have SMART GOALS
 * Understand the code
 * Reinforce by doing something practical

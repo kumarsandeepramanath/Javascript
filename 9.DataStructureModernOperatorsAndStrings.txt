@@ -193,6 +193,15 @@ rest.set(1, 'Firenze, I
 
 console.log(rest.get('name')) // This will get the value based on the key
 
+Another way of creating a MAP
+=============================
+const question = new Map(
+  [1, 'Which is the best language'],
+  ['Option1','C']
+  ['Option2','Java']
+  ['Option3','Javascript']
+)
+
 Arrays vs SETS
 Arrays : Use when you need ordered list of values
          Use when you want to manipulate Data

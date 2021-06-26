@@ -176,7 +176,7 @@ orderedSets.has('Pizza') //True or False depending on whether the element is pre
 
 const staff = ['waiter', 'chef', 'waiter', 'master'];
 const uniqueSet = new Set(staff);
-console.log(uniqueSet);
+console.log(uniqueSet); // This will still be a Set with 3 values.
 
 const uniqueSetAsArray = [...new Set(staff)];
 console.log('Set - After removing the details of an Array. Created with a new Set()')
@@ -185,6 +185,7 @@ console.log(uniqueSetAsArray);
 Maps
 =====
 Stores Key-Value pair
+Object has a key as STRING always. But MAP can have any value
 
 const rest = new Map();
 rest.set('name', 'Classic Italiano');

@@ -201,7 +201,13 @@ const question = new Map(
   ['Option2','Java']
   ['Option3','Javascript']
 )
-
+--------------------------------------------------------------------------------------------------------------
+4 DS in Javascript :
+Array
+Sets
+Object
+Map
+--------------------------------------------------------------------------------------------------------------
 Arrays vs SETS
 Arrays : Use when you need ordered list of values
          Use when you want to manipulate Data

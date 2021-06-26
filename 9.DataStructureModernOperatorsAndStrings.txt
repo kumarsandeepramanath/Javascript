@@ -190,6 +190,9 @@ Object has a key as STRING always. But MAP can have any value
 const rest = new Map();
 rest.set('name', 'Classic Italiano');
 rest.set(1, 'Firenze, I
+
+console.log(rest.get('name')) // This will get the value based on the key
+
 Arrays vs SETS
 Arrays : Use when you need ordered list of values
          Use when you want to manipulate Data

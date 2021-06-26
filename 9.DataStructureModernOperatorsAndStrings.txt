@@ -252,7 +252,10 @@ STRINGS
 
 const airline = 'TAP Air Portugal';
 console.log(airline.indexOf('A')); // 1 - This lets us find an element at a position
+console.log(airline.lastIndexOf('A')); // 1 - This lets us find the last index an element at a position
 console.log(airline.slice(4)); // Air Portugal - The number of 4 will be the start index
+console.log(airline.slice(-2)); // al - The last 2 charecters from last until last.
+console.log(airline.slice(-1)); // l - The last charecters from last until last.
 console.log(airline.slice(4, 7)); // Air - slice(startIndex,endIndex). ** endIndex - startIndex = length of string
 console.log(airline.slice(1, -1)); // AP Air Portuga - startIndex = 1 and endIndex = -1. So -1 removes last value
 const announcement = 'All passenger come to room 23, room 23 please';
@@ -260,12 +263,37 @@ console.log(announcement.replaceAll('room', 'gate')); //replaces all occourance
 console.log(airline.includes('Portugal')); // Returns a Boolean
 console.log(airline.split(' ')) // Will split the string into an array based on space
 console.log(['Mr', airline.split(' ')[0], airline.split(' ')[1]].join('---')); //Join does a reverse of split
-console.log('jonas'.padStart(7, '+')); // Pads the remaining string (7 length in total)
+console.log('jonas'.padStart(7, '+')); // ++jonas => Pads the remaining string (7 length in total)
 
 --------------------------------------------------------------------------------------------------------------
-String Ex4
+String (which are PRIMITIVE) is converted to a String Object and operations on the String object 
+is performed and again converted back to string PRIMITIVE.
 --------------------------------------------------------------------------------------------------------------
+string name = "jONas" // Convert to Capital changes
+const nameLower = name.toLowerCase()
+const nameCapital = nameLower[0].toUpperCase()+ nameLower.slice(1)
+--------------------------------------------------------------------------------------------------------------
+Mask last 4 charecters like in credit card
+let number = '1234567890';
+let visibleNumber = number.slice(-4);
+console.log(visibleNumber.padStart(number.length, '*'));
+--------------------------------------------------------------------------------------------------------------
+underscore_case
+ first_name
+Some_Variable 
+  calculate_AGE
+delayed_departure
 
---------------------------------------------------------------------------------------------------------------
+TO
+underscoreCase      ✅
+firstName           ✅✅
+someVariable        ✅✅✅
+calculateAge        ✅✅✅✅
+delayedDeparture    ✅✅✅✅✅
 
---------------------------------------------------------------------------------------------------------------
+for (const word of inputValues) {
+    const [first, second] = word.trim().toLowerCase().split('_');
+    console.log(
+      `${first}${second.replace(second[0], second[0].toUpperCase())}`
+    );
+  }

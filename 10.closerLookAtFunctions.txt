@@ -1,5 +1,5 @@
 Higher Order function : 
-===
+=====================
 A function that recieves another function as an argument, that returns a new function or both
 ---------------------------------------------------------------------------------------------------------------------
 call() : This is used to call a method that was created inside another object. 

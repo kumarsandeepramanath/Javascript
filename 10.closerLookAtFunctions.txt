@@ -6,7 +6,17 @@ Ex. btnClose.addEventListener('click',greet)
 const greet = () => console.log('Hello world')
 We only have pass-by-value in JS. We dont have a pass-by-reference
 ---------------------------------------------------------------------------------------------------------------------
+const greet  =function(greeting)
+{
+    return function(name)
+    {
+        console.log(`${greeting} ${name}`)
+    }
+}
 
+const greeterHey = greet("Hey")
+greeterHey("Jonas") OR
+greeterHey("Hello")("John")
 ---------------------------------------------------------------------------------------------------------------------
 call() : This is used to call a method that was created inside another object. 
          But now we specify through which object it should be called.

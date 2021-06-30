@@ -16,7 +16,7 @@ const greet  =function(greeting)
 
 const greeterHey = greet("Hey")
 greeterHey("Jonas") OR
-greeterHey("Hello")("John")
+greeterHey("Hellooo")("John")
 ---------------------------------------------------------------------------------------------------------------------
 call() : This is used to call a method that was created inside another object. 
          But now we specify through which object it should be called.

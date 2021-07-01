@@ -21,6 +21,11 @@ greeterHey("Hellooo")("Johnathan")
 call() : This is used to call a method that was created inside another object. 
          But now we specify through which object it should be called.
 
+const euroWings = {
+    name :"EuroWings",
+    iataCode:"12aa",
+    boobkings:[]
+}
 The call method helps in avoid duplicating the code 
 const book  = lufthansa.book()
 Here, book() was created in the lufthansa object. But now we are specifying it should be called under which object

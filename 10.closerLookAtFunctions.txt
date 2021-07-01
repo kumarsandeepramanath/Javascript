@@ -21,13 +21,28 @@ greeterHey("Hellooo")("Johnathan")
 call() : This is used to call a method that was created inside another object. 
          But now we specify through which object it should be called.
 
+const lufthansa = {
+name :'lufthansa',
+iataCode:"12aa",
+boobkings:[],
+book(flightNum, name)
+{
+    console.log(`${name} has booked the flight ${iataCode} `)
+    thia.boobkings.push({flight:${iataCode} ${flightNum}, name})
+}
+}
+
 const euroWings = {
     name :"EuroWings",
     iataCode:"12aa",
     boobkings:[]
 }
-The call method helps in avoid duplicating the code 
+
 const book  = lufthansa.book()
+
+******The call method helps in avoid duplicating the code ********
+We are not repeating the book() in lufthansa object. 
+
 Here, book() was created in the lufthansa object. But now we are specifying it should be called under which object
 book.call(euroWings, 'E12312', 'Federer');
 book.call(britishAirways, 'E9412', 'Nadal');

@@ -31,6 +31,7 @@ const book  = lufthansa.book()
 Here, book() was created in the lufthansa object. But now we are specifying it should be called under which object
 book.call(euroWings, 'E12312', 'Federer');
 book.call(britishAirways, 'E9412', 'Nadal');
+Here the 1st param refers to which object the book method should refer to.
 ---------------------------------------------------------------------------------------------------------------------
 The apply() does the same as call() but instead of the values, it takes an array as a parameter
 THE APPLY METHOD IS NOT USED ANYMORE

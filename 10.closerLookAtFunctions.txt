@@ -75,6 +75,10 @@ document.querySelector('buy').addEventListener('click',lufthansa.buyPlane)
 Output :
 ========
 This will give the result of NaN. This is because "this" points to the button object on which addEventListener is called.
+We want the bind to be called on lufthansa object so that the flight count increases.
+Hence, we need to use the bind method which returns a new object
+
+document.querySelector('buy').addEventListener('click',lufthansa.buyPlane.bind(lufthansa))
 
 ---------------------------------------------------------------------------------------------------------------------
 

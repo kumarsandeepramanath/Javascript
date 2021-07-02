@@ -79,7 +79,7 @@ We want the bind to be called on lufthansa object so that the flight count incre
 Hence, we need to use the bind method which returns a new object
 
 document.querySelector('buy').addEventListener('click',lufthansa.buyPlane.bind(lufthansa))
-
+In the above example, we are binding the click newly with the lufthansa object hence is now pointing to correct object.
 ---------------------------------------------------------------------------------------------------------------------
 
 ---------------------------------------------------------------------------------------------------------------------

@@ -19,7 +19,7 @@ greeterHey("Jonas") OR
 greeterHey("Hellooo")("Johnathan")
 ---------------------------------------------------------------------------------------------------------------------
 call() : 
-=====
+=======
 This is used to call a method that was created inside another object. 
          But now we specify through which object it should be called.
 

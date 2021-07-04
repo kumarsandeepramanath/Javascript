@@ -18,7 +18,9 @@ const greeterHey = greet("Hey")
 greeterHey("Jonas") OR
 greeterHey("Hellooo")("Johnathan")
 ---------------------------------------------------------------------------------------------------------------------
-call() : This is used to call a method that was created inside another object. 
+call() : 
+=
+This is used to call a method that was created inside another object. 
          But now we specify through which object it should be called.
 
 const lufthansa = {
@@ -80,6 +82,8 @@ Hence, we need to use the bind method which returns a new object
 
 document.querySelector('buy').addEventListener('click',lufthansa.buyPlane.bind(lufthansa))
 In the above example, we are binding the click newly with the lufthansa object hence is now pointing to correct object.
+
+**** It is different than DEFAULT PARAMETERS because, in bind, we are returning a BRAND NEW FUNCTION ****
 ---------------------------------------------------------------------------------------------------------------------
 Partial Application : These are such functions when we have a preset value
 const addTax = (rate, value) => value + value*rate
@@ -90,6 +94,8 @@ Here , if we always want the rate to be fixed at 0.23 (23%), then we are making 
 We are setting the first param of bind to null since we dont have a "this" keyword in addTax()
 The 2nd parameter is the percentage which will always be preset.
 So , now we can call addVAT(100). Here, the rate is already set to 0.23, result is 123
+
+
 ---------------------------------------------------------------------------------------------------------------------
 
 ---------------------------------------------------------------------------------------------------------------------

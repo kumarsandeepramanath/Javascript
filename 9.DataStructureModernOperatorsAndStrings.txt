@@ -217,7 +217,7 @@ Sets   : Use when you want unique value
          Use when you want to remove duplicates  
 --------------------------------------------------------------------------------------------------------------
 OBJECTS vs MAP
-===
+======
 Objects : More traditional way of working with key
 Maps    : Have higher performance
 --------------------------------------------------------------------------------------------------------------taly');

@@ -127,6 +127,20 @@ Now, secureBooking() first gets executed and it returns a function.
 How can the booker() access the passengerCount variable when the secureBooking() has already executed ?
 Its exection context is no longer in the stack.
 Closures makes a function remember all the variables that existed at the function's birthplace.
+
+A function has access to the variable environment of the exection context in which it was created even if the exection context is gone.
+Closure : Variable environment to the function, exactly as it was at the time and place the function was created
+
+*** Easy definition ***
+A closure gives a function access to all the variables of its parent function, even after the parent function has 
+returned. The function keeps a reference to its outer scope, which preserves the scope chain throughout time.
+
+A closure makes sure a function does not loose connection to variables that existed at a function's birthplace.
+
+A closure is like a backpack that a function carries around wherever it goes. This backpack has all the variables that were
+present in the environment where the function was created.
+
+*** Easy definition ***
 ---------------------------------------------------------------------------------------------------------------------
 
 

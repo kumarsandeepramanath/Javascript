@@ -95,7 +95,6 @@ We are setting the first param of bind to null since we dont have a "this" keywo
 The 2nd parameter is the percentage which will always be preset.
 So , now we can call addVAT(100). Here, the rate is already set to 0.23, result is 123
 
-
 ---------------------------------------------------------------------------------------------------------------------
 IIFE : immediately Invoked Function Expression :
 If we want to invoke a function only once and never again.
@@ -105,7 +104,29 @@ If we want to invoke a function only once and never again.
     console.log("This will never execute again)
 })()
 ---------------------------------------------------------------------------------------------------------------------
+Closure:
 
+const secureBooking = function()
+{
+    let passengerCount = 0
+
+    return function()
+    {
+        passengerCount++;
+        console.log(`${passengerCount} passengers`)
+    }
+}
+
+const booker = secureBooking()
+
+booker() // 1 passengers
+booker() // 2 passengers
+booker() // 3 passengers
+
+Now, secureBooking() first gets executed and it returns a function.
+How can the booker() access the passengerCount variable when the secureBooking() has already executed ?
+Its exection context is no longer in the stack.
+Closures makes a function remember all the variables that existed at the function's birthplace.
 ---------------------------------------------------------------------------------------------------------------------
 
 
